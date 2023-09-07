@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+list-style: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.header {
+    background-image: url(almendras\ fondo.jpg);
+    background-attachment: fixed;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 
+    display:flex;
+    align-items: center;
+}
+
+.menu{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo{
+    color: #FFFDFC;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+font-size: 18px;
+padding: 10px;
+color:#FFFDFC;
+display: block;
+font-weight: 600;
+}
+
+#menu{
+display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: menu;
+}
+
+.header{
+    text-align: center;
+}
+
+.header-txt h1{
+    font-size: 85px;
+    color:#FFFDFC;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 250px;
+    margin-top:100px;
+    display: flex;
+    height: 200px; 
+}
+
+.header-txt p{
+    color:#FFFDFC;
+    font-size: 25px;
+    padding:0 250px;
+    margin-bottom: 25px;
+    margin-top: -60px;
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 12px 45px;
+    border: 1 px solid #FFFDFC;
+    color: #FFFDFC;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.btn-1:hover{
+    color: #18293A;
+    background-color: #FFFDFC;
+}
+
+.general{
+    padding: 50px 0;
+    text-align: center;
+}
+
+.general-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.general-1 {
+    background-image: url(mix\ energia.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    padding: 100px 50px;
+    color: #FFFDFC;
+    margin-right: 5%;
+}
+
+.general-2 {
+    background-image: url(mix\ energia\ con\ b.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    padding: 100px 50px;
+    color:#FFFDFC;
+    margin-right: 5%;
+}
+
+.general-3 {
+    background-image: url(mix\ premium.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    padding: 100px 50px;
+    color:#FFFDFC;
+}
+
+.h2 {
+    font-size: 70px;
+    text-transform: uppercase;
+    color:#18293A;
+}
+
+.txt h3 {
+font-size: 10px;
+color:#FFFDFC;
+text-transform: uppercase;
+margin-bottom: 10px;
+}
+
+.txt p {
+    color: #EBEBEB;
+    font-size: 16px;
+}
+
+.info-1 {
+    padding: 400px 0;
+    background-image: url(hojas\ info.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.info-content {
+    text-align: center;
+}
+
+.info-content h2, span {
+    color: #FFFDFC;
+}
+
+.info-circle{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 33px;
+}
+
+.circle{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.cirlce-1 {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #FFFDFC;
+    border-radius: 50%;
+    padding-top: 35px;
+}
+
+.circle-1 h3 {
+    color:#FFFDFC;
+    font-size: 16px;
+}
+
+.circle-txt p {
+    color: #FFFDFC;
+    margin-top: 25px;  
+}
+
+.circle-txt{
+    font-size: 20px;
+    color:#FFFDFC;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    line-height: 1;
+} 
+
+.circle-1 p {
+    margin-bottom: -25px;
+}
+
+.info-circle h3 {
+    font-size: 30px;
+}
+
+.info-1 h2 {
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.general-new {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.general-content-new {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.general-1-new {
+    background-image: url(castanñas\ de\ caju.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    padding: 115px 50px;
+    color: #FFFDFC;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.general-2-new {
+    background-image: url(pistachos.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    padding: 115px 50px;
+    color: #FFFDFC;
+    margin-right: 5%;
+}
+
+.general-3-new {
+    background-image: url(nuez\ mariposa.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    padding: 115px 50px;
+    color: #FFFDFC;
+    margin-right: 5%;
+}
+
+.general-bestia {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.general-content-bestia  {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.general-1-bestia  {
+    background-image: url(alm\ con\ choc.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 500px;
+    padding: 115px 50px;
+    color: #FFFDFC;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.general-2-bestia {
+    background-image: url(cafe\ c\ choc..jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 500px;
+    padding: 115px 50px;
+    color: #FFFDFC;
+    margin-right: 5%;
+}
+
+.general-3-bestia {
+    background-image: url(nuex\ onfitada.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 500px;
+    padding: 115px 50px;
+    color: #FFFDFC;
+    margin-right: 5%;
+}
+
+.red-social {
+    display: inline-block;
+    margin: 10px;
+    border-radius: 50%; /* Esto da forma de círculo al contenedor */
+    width: 50px; /* Ajusta el ancho del círculo según tus necesidades */
+    height: 50px; /* Ajusta la altura del círculo según tus necesidades */
+    text-align: center;
+    line-height: 50px; /* Esto centra verticalmente el contenido (icono) */
+    background-color: #0073e6; /* Cambia el color de fondo según tus preferencias */
+}
+
+.red-social a {
+    text-decoration: none;
+    color: white; /* Cambia el color del ícono según tus preferencias */
+    font-size: 24px; /* Ajusta el tamaño del ícono según tus preferencias */
+}
+
+.contenedor-padre {
+    display: flex;
+    justify-content: center;
+}
+
+/* Media query para dispositivos móviles (por ejemplo, smartphones) */
+@media screen and (max-width: 768px) {
+    /* Estilos para pantallas con un ancho máximo de 768px */
+}
+
+/* Media query para tabletas */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Estilos para pantallas entre 769px y 1024px de ancho */
+}
+
+/* Media query para pantallas de escritorio */
+@media screen and (min-width: 1025px) {
+    /* Estilos para pantallas con un ancho mayor o igual a 1025px */
+}
